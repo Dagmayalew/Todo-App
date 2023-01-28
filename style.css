@@ -1,0 +1,30 @@
+body{
+    background-color: #3F72AF;
+}
+
+.container{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    
+
+    margin-left: 700px;
+    margin-top: 100px;
+    background-color: white;
+   display: flex;
+   flex-direction: column;  
+}
+h1{
+    text-align: center;
+}
+.finput{
+    text-align: center;
+}
+.sinput{
+    text-align: center;
+    padding: 20px;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
