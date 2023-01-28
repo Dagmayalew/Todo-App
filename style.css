@@ -1,30 +1,47 @@
 body{
-    background-color: #3F72AF;
-}
-
-.container{
-    text-align: center;
-    width: 400px;
-    height: 400px;
+    text-decoration: none;
+    background-color: #3f72af;
     
+}
+.container{
+ margin-top: 30px;
+background-color: white;
+height: 500px;
+width: 700px;
+margin: auto;
+border-radius: 20px;
+text-align: center;
+}
+#task{
+padding-top: 1px;
+border-bottom: ridge;
 
-    margin-left: 700px;
-    margin-top: 100px;
-    background-color: white;
-   display: flex;
-   flex-direction: column;  
 }
-h1{
-    text-align: center;
+#task h1{
+    font-size: 50px;
+   
 }
-.finput{
-    text-align: center;
-}
-.sinput{
-    text-align: center;
-    padding: 20px;
-}
-input{
-    height: 30px;
+#task input{
     width: 250px;
+    height: 33px;
+    cursor: pointer;
+    font-size: 16px;
+    border-end-start-radius: 7px;
+    border-start-start-radius: 7px;
+}
+#add{
+    height: 36.5px;
+    width: 46.69px;
+    font-size: 18px;
+    color: white;
+    background-color: #aaaaaa;
+    cursor: pointer;
+    border-start-end-radius: 7px;
+    border-end-end-radius: 7px;
+    
+}
+.bu1 button{
+    width: 490px;
+    height: 50px;
+    border: none;
 }
