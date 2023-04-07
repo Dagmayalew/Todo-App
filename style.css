@@ -1,47 +1,102 @@
-body{
-    text-decoration: none;
-    background-color: #3f72af;
-    
+* {
+  box-sizing: border-box;
+  
+  font-family: "fira sans", sans-serif;
 }
-.container{
- margin-top: 30px;
-background-color: white;
-height: 500px;
-width: 700px;
-margin: auto;
-border-radius: 20px;
-text-align: center;
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #3f72af;
 }
-#task{
-padding-top: 1px;
-border-bottom: ridge;
+.cont {
+  margin: 2rem auto;
+  min-height: 25rem;
+  width: 30rem;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 300px;
+  margin-bottom: 2rem;
+}
+
+#input{
+    border-radius: 5px;
+    background-color: #DBE2EF;
+    width: 250px;
+    height: 32px;
+    margin-bottom: 2rem;
+}
+
+#submit{
+  border-radius: 5px;
+  background-color: #b1b1b1;
+  width: 45px;
+  height: 32px;
+  color: white;
+  font-size: large;
+}
+.line{
+  border-bottom: 3px solid #aaaaaa;
+  width: 350px;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 
 }
-#task h1{
-    font-size: 50px;
-   
+main{
+  text-align: center;
+  padding-top: 20px;
 }
-#task input{
-    width: 250px;
-    height: 33px;
-    cursor: pointer;
-    font-size: 16px;
-    border-end-start-radius: 7px;
-    border-start-start-radius: 7px;
+.text{
+  border-radius: 5px;
+  background-color: #DBE2EF;
+  width: 350px;
+  height: 32px;
+  margin-bottom: 1rem;
 }
-#add{
-    height: 36.5px;
-    width: 46.69px;
-    font-size: 18px;
-    color: white;
-    background-color: #aaaaaa;
-    cursor: pointer;
-    border-start-end-radius: 7px;
-    border-end-end-radius: 7px;
-    
+#tasks{
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  
+  
+  margin-top: 10px;
 }
-.bu1 button{
-    width: 490px;
-    height: 50px;
-    border: none;
+
+.task{
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  width: 400px;
+  margin-left: 40px;
+}
+.task span{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+.task button{
+  background-color: #6583e5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
 }
